@@ -1,0 +1,25 @@
+.student-card {
+  width: 280px;
+  padding: 25px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px gray;
+  border-left: 6px solid purple;
+  transition: 0.3s;
+}
+
+.student-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px gray;
+}
+
+.student-card h2 {
+  text-align: center;
+  color: purple;
+}
+
+.student-card p {
+  font-size: 16px;
+  margin: 12px;
+}

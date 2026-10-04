@@ -1,0 +1,56 @@
+body {
+    background-color: #f5f8fc;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+.card {
+    border: 1px solid #dbe5f0;
+    border-radius: 8px;
+}
+
+h3,
+h4 {
+    color: #17375e;
+    font-weight: 600;
+}
+
+.form-label {
+    color: #17375e;
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    min-height: 42px;
+}
+
+.search-box {
+    width: 400px;
+}
+
+.employee-table {
+    font-size: 14px;
+}
+
+.employee-table th {
+    background-color: #f4f8fc;
+    color: #17375e;
+    white-space: nowrap;
+}
+
+.employee-table td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+
+    .search-box {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+}

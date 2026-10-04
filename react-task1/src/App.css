@@ -1,0 +1,15 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+.student-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
